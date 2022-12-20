@@ -1,4 +1,4 @@
-# Project Title
+# GAME OF WAR
 
 One Paragraph of the project description
 
