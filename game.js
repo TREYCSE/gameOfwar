@@ -31,23 +31,23 @@ class Card {
         this.value = value;
     }
 }
-
+//creating the card out of a suit, value map
 function newDeck() {
     return suit.flatMap(suit => {
-        return value.map(value => {
+        return value.flatMap(value => {
             return new Card(suit, value)
         })
     })
 }
 const deck = new Deck();
 deck.shuffle();
-
+//creating an object that converts the string into a numeric value so that the
 let cardValue = {
     "2": 2, 
     "3": 3, 
     "4": 4,
     "5": 5,
-    "6": 6,
+    "6": 6,                                                                          
     "7": 7,
     "8": 8,
     "9": 9,
@@ -60,8 +60,7 @@ let cardValue = {
 let playerDeck, computerDeck, inRound
 
 //GAME ROOM
-//Alert user that they have entered the game and prompt them to continue
-//Alert the player to the rules that are displayed on the page and the player is prompted to continue
+//Alert user that they have entered the game and show them the rules that are displayed on the page and the player is prompted to continue
 alert("You seem to have stumbled into enemy territory! Looks like you're gonna have to play the game of WAR to get out...I am your moderator - Wizard Trey - and I am here to tell you the rules of WAR: The rules of the game are simple... To play, each player reveals the top card in their stack. The player who played the card with the higher rank takes both cards and puts them at the bottom of their stack in an arbitrary order. If there is a tie, then it’s WAR! In the card game each player adds places the top three cards of their stack face down, and then each player reveals the top card again. Whoever wins out of the second reveal takes all of the cards, and if there is another tie the process repeats until there is a winner....May the CARDS be ever in your favor...");
 //Player is prompted to ask to agree to the terms
 let promptAgree = " "; {
@@ -88,6 +87,7 @@ const gameRoom1 = new gameRoom("WARRIOR", "ENEMY");
 console.log(gameRoom1.welcome());
 
 //GAME BEGINS
+//the document is waiting for the user to click the page to flip the cards. Each time the player clicks the page, a new card will flip/a new round/hand will be played. Until the game is over and someone has won, and the deck will reset.
 document.addEventListener('click', () => {
     if (inRound) {
         flipCards();
@@ -97,11 +97,11 @@ document.addEventListener('click', () => {
         gameReset();
     }
 });
-
+//the first hand is automatically dealt when the user loads the console
 function startGame() {
     const deck = new Deck()
     deck.shuffle()
-
+//split the deck between players by slicing the deck in half
     const deckMidpoint = Math.ceil(deck.numberOfCards / 2)
     playerDeck = new Deck(deck.cards.slice(0, deckMidpoint))
     computerDeck = new Deck(deck.cards.slice(deckMidpoint, deck.numberOfCards))
@@ -142,7 +142,7 @@ function flipCards() {
     }
 };
 flipCards();
-
+//show the user their number of cards and the computers number of cards each round to keep track of the game
 function updateDeckCount() {
     console.log(computerDeck.numberOfCards);
     console.log(playerDeck.numberOfCards);
