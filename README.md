@@ -17,24 +17,32 @@ Requirements for the software and other tools to build, test and push
 
 ### Object Oriented Programming
 
-Object Oriented Programming
+Object oriented programming gives use three major benefits:
 
-Say what the step will be
+Encapsulation: The complexity of our objects is hidden and a user can interact with a well defined set of methods. We can redefine internal behavior without changing anything externally - a huge benefit for refactoring.
+Modularity: Because the interface (set of methods) for an object is well defined, it is easy to exchange one object for another and reorganize objects without breaking them.
+Inheritance: Object Oriented design lets certain classes inherit from, or borrow the behavior of another, more general class. The inheriting class can add and overwrite inherited methods.
 
-    Give the example
+Define a class:
 
-And repeat
+  
 
-    until finished
+And give it an instance:
 
-End with an example of getting some data out of the system or using it
-for a little demo
+    
+
 
 ## Classes amd Instances
 
-Explain how to run the automated tests for this system
+Classes and instances are at the core of object-oriented programming. Every object stores and manages any state or data relevant to itself internally. We almost always have many instances of a type of object.
 
-### constructor
+We use methods to initialize, modify, or act on an objects' internal state.
+
+Because these methods will be the same across all instances of a type of object, we define a single class with all of this behavior described in one place.
+
+We then use that class to instantiate as many instances (objects) of the class as we need.
+
+### Constructor
 
 Constructors are special methods that will be invoked whenever we create a new instance of our class. If our class is what defines our template, the constructor method is what fills it in for a particular instance.
 
@@ -42,7 +50,7 @@ Constructors are special methods that will be invoked whenever we create a new i
         this.cards = cards;
         };
 
-### methods
+### Methods
 
 Methods are the "functions of Classses" used methods to initialize, modify, or act on an objects' internal state.
 
@@ -55,7 +63,7 @@ Methods are the "functions of Classses" used methods to initialize, modify, or a
       };
     };
 
-## attributes
+## Attributes
 
 If we want to create our own classes, all we need is a name for our class and a definition of the information and behavior we want to encapsulate in our class. The information and behavior we want to describe with our class has a special name: an attribute. There are two kinds of attributes: data attributes and procedural attributes (more commonly called methods).
 
