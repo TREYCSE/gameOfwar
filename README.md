@@ -1,4 +1,4 @@
-# Game of War - console card deck 2 player game
+# Game of War - 2-player card-deck console game
 
 Game of War is a card game in which players play their random cards from their respective parts of the deck to see which hand is larger. The game is built for the user to play directly from the console using object-oriented programming.
 
@@ -15,7 +15,7 @@ Requirements for the software and other tools to build, test and push
 - [Javascript Objects and Classes](https://git.generalassemb.ly/dc-wdi-fundamentals/objects-intro)
 - [Object Oriented Programming](https://git.generalassemb.ly/dc-wdi-fundamentals/javascript-oop/blob/master/object-oriented-javascript.md)
 
-### Object Oriented Programming
+## Object Oriented Programming
 
 
 ### Classes and Instances
@@ -61,11 +61,6 @@ Object oriented programming gives use three major benefits:
   - [Creative Commons](https://creativecommons.org/) - Used to choose
     the license
 
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
-
 ## Versioning
 
 We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
@@ -77,15 +72,6 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
   - **Billie Thompson** - *Provided README Template* -
     [PurpleBooth](https://github.com/PurpleBooth)
 
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
-
-## License
-
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
 
 ## Acknowledgments
 
