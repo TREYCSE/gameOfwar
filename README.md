@@ -1,24 +1,23 @@
 # GAME OF WAR
 
-One Paragraph of the project description
+Game of War is a card game in which players play their random cards from their respective parts of the deck to see which hand is larger. The game is built for the user to play directly from the console using object-oriented programming.
 
-Initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
+Assigned from:
+[GA users only](https://git.generalassemb.ly/dc-wdi-fundamentals/game-of-war)
 
 ## How to Play
 
 To play, each player reveals the top card in their stack. The player who played the card with the higher rank takes both cards and puts them at the bottom of their stack in an arbitrary order. If there is a tie, then it’s WAR! In the card game each player adds places the top three cards of their stack face down, and then each player reveals the top card again. Whoever wins out of the second reveal takes all of the cards, and if there is another tie the process repeats until there is a winner.
 
-### Prerequisites
+### Prerequisites to Build
 
 Requirements for the software and other tools to build, test and push 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
+- [Javascript Objects and Classes](https://www.example.com)
+- [Object Oriented Programming](https://www.example.com)
 
 ### Object Oriented Programming
 
-A step by step series of examples that tell you how to get a development
-environment running
+Object Oriented Programming
 
 Say what the step will be
 
@@ -37,19 +36,28 @@ Explain how to run the automated tests for this system
 
 ### constructor
 
-Explain what these tests test and why
+Constructors are special methods that will be invoked whenever we create a new instance of our class. If our class is what defines our template, the constructor method is what fills it in for a particular instance.
 
-    Give an example
+       constructor(cards = newDeck()) {
+        this.cards = cards;
+        };
 
 ### methods
 
-Checks if the best practices and the right coding style has been used.
+Methods are the "functions of Classses" used methods to initialize, modify, or act on an objects' internal state.
 
-    Give an example
+    shuffle () {
+      for (let i = this.numberOfCards - 1; i > 0; i--) {
+          const newIndex = Math.floor(Math.random() * (i + 1))
+          const oldValue = this.cards[newIndex]
+          this.cards[newIndex] = this.cards[i]
+          this.cards[i] = oldValue;
+      };
+    };
 
-## functions
+## attributes
 
-Add additional notes to deploy this on a live system
+If we want to create our own classes, all we need is a name for our class and a definition of the information and behavior we want to encapsulate in our class. The information and behavior we want to describe with our class has a special name: an attribute. There are two kinds of attributes: data attributes and procedural attributes (more commonly called methods).
 
 ## Built With
 
