@@ -111,13 +111,13 @@ function startGame() {
     inRound = false;
 }
 startGame();
-
+//creating a function that, when invoked, will reset the game - the players will have their original portions of the deck (26 and 26) and the decks will be newly randomized again
 function gameReset() {
     console.log(computerDeck.numberOfCards);
     console.log(playerDeck.numberOfCards);
 }
 gameReset();
-
+//creating a function that when invoked, will return the first card of the players's deck array and log it to the console if the players are currently in a round
 function flipCards() {
     inRound = true;
 

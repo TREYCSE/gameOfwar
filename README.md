@@ -19,7 +19,7 @@ Requirements for the software and other tools to build, test and push
 
 Object oriented programming gives use three major benefits:
 
-Encapsulation: The complexity of our objects is hidden and a user can interact with a well defined set of methods. We can redefine internal behavior without changing anything externally - a huge benefit for refactoring.
+> Encapsulation: The complexity of our objects is hidden and a user can interact with a well defined set of methods. We can redefine internal behavior without changing anything externally - a huge benefit for refactoring.
 Modularity: Because the interface (set of methods) for an object is well defined, it is easy to exchange one object for another and reorganize objects without breaking them.
 Inheritance: Object Oriented design lets certain classes inherit from, or borrow the behavior of another, more general class. The inheriting class can add and overwrite inherited methods.
 
@@ -30,7 +30,7 @@ We use methods to initialize, modify, or act on an objects' internal state.
 Because these methods will be the same across all instances of a type of object, we define a single class with all of this behavior described in one place.
 We then use that class to instantiate as many instances (objects) of the class as we need.
 
-### Constructor
+### ConstructorS
 
 Constructors are special methods that will be invoked whenever we create a new instance of our class. If our class is what defines our template, the constructor method is what fills it in for a particular instance.
 
