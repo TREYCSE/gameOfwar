@@ -38,6 +38,7 @@ If we want to create our own classes, all we need is a name for our class and a 
 ### Methods
 Methods are the "functions of Classses" used methods to initialize, modify, or act on an objects' internal state. For example:
 Here's an example of how methods can be used in a class in the Game of War.
+
     shuffle () {
       for (let i = this.numberOfCards - 1; i > 0; i--) {
           const newIndex = Math.floor(Math.random() * (i + 1))
