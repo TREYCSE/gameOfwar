@@ -12,8 +12,8 @@ To play, each player reveals the top card in their stack. The player who played 
 ### Prerequisites to Build
 
 Requirements for the software and other tools to build, test and push 
-- [Javascript Objects and Classes](https://www.example.com)
-- [Object Oriented Programming](https://www.example.com)
+- [Javascript Objects and Classes](https://git.generalassemb.ly/dc-wdi-fundamentals/objects-intro)
+- [Object Oriented Programming](https://git.generalassemb.ly/dc-wdi-fundamentals/javascript-oop/blob/master/object-oriented-javascript.md)
 
 ### Object Oriented Programming
 

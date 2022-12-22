@@ -127,7 +127,7 @@ function flipCards() {
     console.log(computerCard);
 
     updateDeckCount();
-//printing message for each “round” of the game showing the cards played by each user, who won the round, and how many cards each player now has.
+//printing message for each “round” of the game showing the cards played by each user, who won the round, and how many cards each player now has + pushing both cardds into the deck/array of the round winner
     if (roundWinner(playerCard, computerCard)) {
         console.log("You frickin Win (THIS TIME)! try again...");
         playerDeck.push(playerCard);
