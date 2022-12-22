@@ -45,7 +45,7 @@ function newDeck() {
 }
 const deck = new Deck();
 deck.shuffle();
-//creating an object that converts the string into a numeric value so that the computer has a way to compare higher and lower values - might be a bug here, return "value not defined but everything pretty much runs"
+//creating an object that converts the string into a numeric value so that the computer has a way to compare higher and lower values - might be a bug here, returns "Uncaught TypeError: Cannot read properties of undefined (reading 'value') at roundWinner (game.js:154:33) at game.js:156:1"
 let cardValue = {
     "2": 2, 
     "3": 3, 
