@@ -31,9 +31,10 @@ Constructors are special methods that will be invoked whenever we create a new i
        constructor(cards = newDeck()) {
         this.cards = cards;
         };
+### Attributes
+If we want to create our own classes, all we need is a name for our class and a definition of the information and behavior we want to encapsulate in our class. The information and behavior we want to describe with our class has a special name: an attribute. There are two kinds of attributes: data attributes and procedural attributes (more commonly called methods).
 
 ### Methods
-
 Methods are the "functions of Classses" used methods to initialize, modify, or act on an objects' internal state. For example:
 
     shuffle () {
@@ -52,8 +53,6 @@ Object oriented programming gives use three major benefits:
 > (1) Encapsulation: The complexity of our objects is hidden and a user can interact with a well defined set of methods. We can redefine internal behavior without changing anything externally - a huge benefit for refactoring.
 (2) Modularity: Because the interface (set of methods) for an object is well defined, it is easy to exchange one object for another and reorganize objects without breaking them.
 (3) Inheritance: Object Oriented design lets certain classes inherit from, or borrow the behavior of another, more general class. The inheriting class can add and overwrite inherited methods.
-
-If we want to create our own classes, all we need is a name for our class and a definition of the information and behavior we want to encapsulate in our class. The information and behavior we want to describe with our class has a special name: an attribute. There are two kinds of attributes: data attributes and procedural attributes (more commonly called methods).
 
 ## Built With
 
