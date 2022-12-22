@@ -1,4 +1,4 @@
-# GAME OF WAR
+# Game of War - console card deck 2 player game
 
 Game of War is a card game in which players play their random cards from their respective parts of the deck to see which hand is larger. The game is built for the user to play directly from the console using object-oriented programming.
 
@@ -23,23 +23,11 @@ Encapsulation: The complexity of our objects is hidden and a user can interact w
 Modularity: Because the interface (set of methods) for an object is well defined, it is easy to exchange one object for another and reorganize objects without breaking them.
 Inheritance: Object Oriented design lets certain classes inherit from, or borrow the behavior of another, more general class. The inheriting class can add and overwrite inherited methods.
 
-Define a class:
-
-  
-
-And give it an instance:
-
-    
-
-
 ## Classes amd Instances
 
-Classes and instances are at the core of object-oriented programming. Every object stores and manages any state or data relevant to itself internally. We almost always have many instances of a type of object.
-
+Classes and instances are at the core of object-oriented programming. Every object stores and manages any state or data relevant to itself internally. We almost always have many instances of a type of object. 
 We use methods to initialize, modify, or act on an objects' internal state.
-
 Because these methods will be the same across all instances of a type of object, we define a single class with all of this behavior described in one place.
-
 We then use that class to instantiate as many instances (objects) of the class as we need.
 
 ### Constructor
