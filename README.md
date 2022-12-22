@@ -22,21 +22,22 @@ Requirements for the software and other tools to build, test and push
 We use methods to initialize, modify, or act on an objects' internal state.
 Because these methods will be the same across all instances of a type of object, we define a single class with all of this behavior described in one place.
 We then use that class to instantiate as many instances (objects) of the class as we need.
-Constructors are special methods that will be invoked whenever we create a new instance of our class. If our class is what defines our template, the constructor method is what fills it in for a particular instance. For example:
+Constructors are special methods that will be invoked whenever we create a new instance of our class. If our class is what defines our template, the constructor method is what fills it in for a particular instance.
 
 ### Constructors
 
-Constructors are special methods that will be invoked whenever we create a new instance of our class. If our class is what defines our template, the constructor method is what fills it in for a particular instance. For example: 
+Constructors are special methods that will be invoked whenever we create a new instance of our class. If our class is what defines our template, the constructor method is what fills it in for a particular instance.
+Here is an example of how a constructor is used to code the game: 
 
        constructor(cards = newDeck()) {
         this.cards = cards;
-        };
+      };
 ### Attributes
 If we want to create our own classes, all we need is a name for our class and a definition of the information and behavior we want to encapsulate in our class. The information and behavior we want to describe with our class has a special name: an attribute. There are two kinds of attributes: data attributes and procedural attributes (more commonly called methods).
 
 ### Methods
 Methods are the "functions of Classses" used methods to initialize, modify, or act on an objects' internal state. For example:
-
+Here's an example of how methods can be used in a class in the Game of War.
     shuffle () {
       for (let i = this.numberOfCards - 1; i > 0; i--) {
           const newIndex = Math.floor(Math.random() * (i + 1))
