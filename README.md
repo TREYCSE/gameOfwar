@@ -1,4 +1,4 @@
-# Game of War - 2-player card-deck console game
+# Game of War: 2-player card console game
 
 Game of War is a card game in which players play their random cards from their respective parts of the deck to see which hand is larger. The game is built for the user to play directly from the console using object-oriented programming.
 
