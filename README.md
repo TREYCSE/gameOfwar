@@ -5,7 +5,7 @@ One Paragraph of the project description
 Initially appeared on
 [gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
 
-## How to Play!
+## How to Play
 
 To play, each player reveals the top card in their stack. The player who played the card with the higher rank takes both cards and puts them at the bottom of their stack in an arbitrary order. If there is a tie, then it’s WAR! In the card game each player adds places the top three cards of their stack face down, and then each player reveals the top card again. Whoever wins out of the second reveal takes all of the cards, and if there is another tie the process repeats until there is a winner.
 
@@ -15,7 +15,7 @@ Requirements for the software and other tools to build, test and push
 - [Example 1](https://www.example.com)
 - [Example 2](https://www.example.com)
 
-### Installing
+### Object Oriented Programming
 
 A step by step series of examples that tell you how to get a development
 environment running
@@ -31,23 +31,23 @@ And repeat
 End with an example of getting some data out of the system or using it
 for a little demo
 
-## Running the tests
+## Classes amd Instances
 
 Explain how to run the automated tests for this system
 
-### Sample Tests
+### constructor
 
 Explain what these tests test and why
 
     Give an example
 
-### Style test
+### methods
 
 Checks if the best practices and the right coding style has been used.
 
     Give an example
 
-## Deployment
+## functions
 
 Add additional notes to deploy this on a live system
 
