@@ -30,9 +30,9 @@ We use methods to initialize, modify, or act on an objects' internal state.
 Because these methods will be the same across all instances of a type of object, we define a single class with all of this behavior described in one place.
 We then use that class to instantiate as many instances (objects) of the class as we need.
 
-### ConstructorS
+### Constructors
 
-Constructors are special methods that will be invoked whenever we create a new instance of our class. If our class is what defines our template, the constructor method is what fills it in for a particular instance.
+Constructors are special methods that will be invoked whenever we create a new instance of our class. If our class is what defines our template, the constructor method is what fills it in for a particular instance. For example: 
 
        constructor(cards = newDeck()) {
         this.cards = cards;
@@ -40,7 +40,7 @@ Constructors are special methods that will be invoked whenever we create a new i
 
 ### Methods
 
-Methods are the "functions of Classses" used methods to initialize, modify, or act on an objects' internal state.
+Methods are the "functions of Classses" used methods to initialize, modify, or act on an objects' internal state. For example:
 
     shuffle () {
       for (let i = this.numberOfCards - 1; i > 0; i--) {
